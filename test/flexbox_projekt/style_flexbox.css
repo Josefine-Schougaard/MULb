@@ -1,0 +1,51 @@
+
+
+#storkasse{
+    display: flex; /* gør at de to andre kasser opføre sig som inline elementer i den store kasse*/
+    border: 3px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 1200px;/*størrelsen på selve kassen*/
+    align-items: flex-end; /*presser alt ned i bunden af kassen kan også presse alt andre steder hen så som center*/
+}
+
+
+#kasse1 /*her peges der på et id ved en div så man kan gøre forskellige ting for hver div*/{
+    background-color: grey;
+    width: 50%;
+}
+
+#kasse2{
+    background-color: aqua;
+    width: 50%;
+}
+
+.kasse3{
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 10px; /* det er den farvede kasse tallet er inden i*/
+}
+
+.husdyr/*her peges der på en class i stedet for et id*/{
+    color: orange;
+}
+
+.eksotisk{
+    color: coral;
+}
+
+.brugsdyr{
+    color: chartreuse;
+}
+
+.highlight{
+    background-color: darkgoldenrod;
+}
+
+.special{
+    order: -1;/*alt er normalt på order 0, men for at ændre på rækkefølgen kan man skrive -1 for at få det op før alt andet der er 0*/
+}
+
+.end{
+    order: 1;
+}
