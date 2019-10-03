@@ -1,0 +1,41 @@
+
+.main h1{
+    margin-top: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 200px 100px 200px;
+}
+
+.projectbox{
+    width: 50%;
+    margin-bottom: 10px;
+    
+}
+
+.content h2{
+    margin-bottom: 15px;
+}
+
+.content p{
+    margin: 0px 7px 0px 7px;
+    text-align: left;
+    line-height: 150%;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: #cc5d5d;
+}
+
+a:hover{
+    color: #fff;
+}
