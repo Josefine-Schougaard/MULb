@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Josefine Schougaard - Byg dit portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--tag til at devices viser siden i de rigtige dimensioner-->
+    <link href="portfolio_stylesheet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo|Didact+Gothic|Montserrat|Red+Hat+Text&display=swap" rel="stylesheet"><!--skrifttyper fra google fonts-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> <!--burgermenu-->
+    <script src="burgermenu.js"></script><!--referer til javascript filen-->
+</head>
+<body class="huse">
+    <div class="container">
+        
+        <div class="top_bar"></div>
+           <div class="header_container">
+            <div class="header">
+                <div class="logo">
+                    <a href="forside.html"><img class="symbol" src="billeder/logo-pastel.png" alt="Logo"></a>
+                </div>
+
+                <div class="burgermenu">
+                   <button onclick="burgerMenuToggle()">
+                       <i class="fa fa-bars"></i><!--icon kode-->
+                   </button>
+                    <nav class="mobile_nav">
+                        <ul>     
+                            <li><a href="arbejde.html">Arbejde</a>
+                                <ul>
+                                    <li><a href="1_semester.html">1 Semester</a></li>
+                                </ul></li>
+                            <li><a href="laering.html">Læring</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                       </ul>
+                    </nav>
+                </div>
+
+                <nav class="computer_nav">
+                    <ul>     
+                        <li class="dropdown_container"><a href="arbejde.html">Arbejde</a>
+                            <ul class="dropdown">
+                                <li><a href="1_semester.html">1 Semester</a></li>
+                            </ul></li>
+                        <li><a href="laering.html">Læring</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                   </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="content">
+            <div class="title">
+                <h1>Byg dit portfolio</h1>
+                <h2>Flow 2</h2>
+            </div>
+            <div class="info">
+               <div class="prog">
+                   <h2>Programmer</h2>
+                    <p>Photoshop</p>
+                    <p>Procreate</p>
+                    <p>Adobe XD</p>
+                </div>
+                <div class="broedtekst">
+                   <h2>Information</h2>
+                    <p>Til det andet flow projekt på første semester skulle vi kode vores portfolio i HTML og CSS, så vi kunne lave en ’rigtig’ online version, frem for kun en prototype. Jeg har kodet denne side fra bunden uden brug af hjælpe systemer, i HTML og CSS. Dette portfolio er ikke responsivt. Lige som de andre flow projekter, skulle der også laves et remake af dette portfolio. Det remake vil ikke kunne ses her, da remaket bestod i et komplet redesign af dette portfolio. Så for at se det nye design, så følg ”redesign” linket eller se det under <a href="eksamensprojekt_1.html">1. semester eksamen</a>. </p>
+                </div>
+                <div class="links">
+                   <h2>Links</h2>
+                    <a href="docs/opgavebeskrivelse_flow2.pdf" target="_blank">Opgave beskrivelse</a>
+                    <a href="http://josefineschougaard.dk/1semeste/og_portfolio/homepage.html" target="_blank">Online version</a>
+                    <a href="https://xd.adobe.com/view/8adc8da2-30a5-4302-6a1b-cefee3eacd74-fced/" target="_blank">Prototype</a>
+                    <a href="eksamensprojekt_1.html">Redesign</a>
+                </div>
+            </div>
+            <h2>Proces og billeder</h2>
+            <div class="billeder">
+               <h3>Prototype</h3>
+                <div class="billede">
+                    <img src="billeder/flow2_proto.png" alt="eks">
+                </div>
+                <h3>Forside</h3>
+                <div class="billede">
+                    <img src="billeder/flow2_forside.png" alt="eks">
+                </div>
+                <h3>Projekter</h3>
+                <div class="billede">
+                    <img src="billeder/flow2_portfolio.png" alt="eks">
+                </div>
+                <h3>Logo</h3>
+                <div class="billede">
+                    <img src="billeder/flow2_logo_white.png" alt="eks">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

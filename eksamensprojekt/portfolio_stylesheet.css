@@ -1,0 +1,629 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #b7bdc4;
+}
+
+.huse{
+    background-image: url(billeder/husepaavej.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+p{
+    font-family: 'Montserrat', arial, sans-serif;
+    color:  #4d5156;
+    line-height: 150%;
+}
+h1{
+    color: #4d5156;
+}
+
+h3{
+    font-family: 'Red Hat Text', arial, sans-serif;
+    color: #4d5156;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.top_bar{
+    height: 80px;
+    width: 100%;
+}
+
+.header_container{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', arial, sans-serif;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    height: 80px;
+    background-color: #b7bdc4;
+    
+}
+
+.logo{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    width: 70%;
+    align-items: center;
+}
+
+.logo a{
+    margin-left: 1%;
+    margin-bottom: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 0.5%;
+}
+
+.symbol{
+    height: 70px;
+
+}
+
+.projekt img{
+    max-width: 100%;
+}
+
+
+.billede img{
+    max-width: 100%;
+}
+/*css til små skærme*/
+
+button{
+    background-color: #b7bdc4;
+    color: #a08cac;
+    padding: 10px;
+    border-style: none;
+    font-size: 30px;
+}
+
+.mobile_nav{
+    position: absolute;
+    right: 0;
+    top: 80px;
+    background-color: #b7bdc4;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: none;
+    
+}
+
+.mobile_nav a{
+    font-family: 'Montserrat', arial, sans-serif;
+    color: #a08cac;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.mobile_nav a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #9e5f78;
+}
+
+.mobile_nav ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.mobile_nav ul ul{
+    margin-left: 20px;
+    margin-bottom: 0px;
+   
+}
+
+.mobile_nav ul ul a{
+    font-size: 20px;
+}
+
+.computer_nav{
+    display: none;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    width: 100%;
+    font-family: 'Red Hat Text', arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title h1, h2{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.title h2{
+    color: #9e5f78;
+}
+
+h2{
+    font-family: 'Red Hat Text', arial, sans-serif;
+    color: #4d5156;
+}
+
+.video{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;/*gør at video dimensionerne forblive rigtige*/
+    width: 80%;
+    text-align: center;/*videoer i HTML opføre sig som tekst?*/
+    margin: 40px 0px;
+    
+}
+
+.resp_video{
+    box-shadow: 5px 5px 10px #4d5156;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    
+}
+
+.latest{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.projekt{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1%;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px #4d5156;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.projekt h3{
+    font-family: 'Red Hat Text', arial, sans-serif;
+    color: #4d5156;
+    margin: 2%;
+    width: 100%;
+}
+
+.knap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.knap h4{
+    font-family: 'Red Hat Text', arial, sans-serif;
+    color: #4d5156;
+    margin: 5%;
+    padding: 2%;
+    width: 50%;
+    background-color: #9e5f78;
+    text-decoration: none;
+}
+
+.knap a{
+    text-decoration: none;
+    color: #4d5156;
+}
+.app{
+    height: 330px;
+}
+
+.om_mig{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.om_mig h2{
+    color: #9e5f78;
+}
+
+.selfie_container{
+    width: 100%;
+    display: block;
+}
+
+.selfie{
+    width: 100%;
+    height: auto;
+}
+
+.tekst_om_mig_container{
+    width: 100%;
+    
+}
+.tekst_om_mig p{
+    line-height: 150%;
+    font-size: 40xp;
+}
+
+.tekst_om_mig{
+    width: 100%;
+    
+}
+
+h2{
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+
+
+.linkedin{
+    width: 7%;
+    margin: 10px 0px 10px 0px;
+}
+
+.projekter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.title p{
+    text-align: center;
+    width: 100%;
+    margin: 20px 0px 40px 0px;
+}
+
+/*enkelt projekt*/
+.billeder{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.billede{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.billeder h3{
+    width: 100%;
+    text-align: center;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+
+}
+
+.broedtekst a{
+    text-decoration: none;
+    color: #a08cac;
+}
+
+.broedtekst a:hover{
+    color: #9e5f78;
+}
+
+.broedtekst, .prog, .links{
+    width: 100%;
+}
+
+.prog, .links{
+    text-align: center;
+}
+
+.links a{
+    font-family:'Montserrat', arial, sans-serif;
+    font-weight: 700;
+    color: #a08cac;
+    display: block;
+    line-height: 150%;
+}
+
+
+/*lærings tidslinje først for stor skærm, derefter for små*/
+
+.tidslinje *{
+    box-sizing: border-box;
+}
+
+.tidslinje{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tidslinje::after/*selve linjen*/{
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #9e5f78;
+    top:0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+}
+
+.kasse{
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    z-index: -1;
+}
+
+.kasse::after/*cirkler på tidslinje*/{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #9e5f78;
+    border: 4px solid #9e5f78;
+    top: 15px;
+    border-radius: 50%;
+    z-index: -1;
+    
+}
+
+.venstre{
+    left: 0;
+}
+
+.hoejre{
+    left: 50%;
+}
+
+.hoejre::after{
+    left: -16px;
+}
+
+.indhold{
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+
+
+@media screen and (max-width: 700px)/*tidslinje lille skærm*/{
+    .tidslinje::after{
+        left: 31px;
+    }
+
+    .kasse{
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .venstre::after, .hoejre::after{
+        left: 15px;
+    }
+
+    .hoejre{
+        left: 0%;
+    }
+}
+
+
+@media screen and (min-width: 1100px)/*til store skørme*/{
+    .burgermenu{
+    display: none;
+    }
+
+    .computer_nav{
+        margin-top: 1%;
+        width: 30%;
+        float: right;
+        display: block;
+    }
+
+    .computer_nav a{
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        height: 2em;
+        font-family: 'Montserrat', arial, sans-serif;
+        color: #a08cac;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .computer_nav a:hover{
+        text-decoration-line: underline;
+        text-decoration-color: #9e5f78;
+    }
+
+    .computer_nav ul{
+        display: flex;
+        list-style: none;
+    }
+
+    .computer_nav ul li{
+        width: 100%;
+    }
+
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        background-color: #b7bdc4;
+
+    }
+
+    .dropdown li{
+        display: none;
+
+    }
+
+    .computer_nav li:hover .dropdown li{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .dropdown_container{
+        position: relative;
+
+    }
+
+    /*forside til stor skærm*/
+    .projekt{
+        width: 30%;
+        margin: calc(1.5% - 1px);
+    }
+
+    .midtfor{
+        margin-left: calc(2% - 1px);
+        margin-right: calc(2% - 1px);
+    }
+
+    .video{
+        width: 80;
+    }
+
+
+    /*kontakt side til stor skørm*/
+    .selfie_container{
+        width: 50%;
+        display: block;
+    }
+
+    .selfie{
+        width: 50%;
+        height: auto;
+        margin-left: 49%;
+
+    }
+    .tekst_om_mig_container{
+        width: 50%;
+
+    }
+
+    .tekst_om_mig{
+        width: 50%;
+        margin-top: 20px;
+
+    }
+
+
+
+    .tidslinje *{
+        box-sizing: border-box;
+    }
+
+    .tidslinje{
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .tidslinje::after/*selve linjen*/{
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: #9e5f78;
+        top:0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+    }
+
+    .kasse{
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+    }
+
+    .kasse::after/*cirkler på tidslinje*/{
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -17px;
+        background-color: #9e5f78;
+        border: 4px solid #9e5f78;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+
+    }
+
+    .venstre{
+        left: 0;
+    }
+
+    .hoejre{
+        left: 50%;
+    }
+
+    .hoejre::after{
+        left: -16px;
+    }
+
+    .indhold{
+        padding: 20px 30px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+    }
+
+    /*enkelt projekt*/
+
+    .broedtekst, .prog, .links{
+        width: 30%;
+        margin: calc(1.5% - 1px);
+    }
+
+    .prog{
+        margin-left: calc(2% - 1px);
+        margin-right: calc(2% - 1px);
+    }
+
+    .billeder{
+        width: 70%;
+    }
+
+    .links a:hover{
+        text-decoration-line: underline;
+        text-decoration-color: #9e5f78;
+    }
+}
+
