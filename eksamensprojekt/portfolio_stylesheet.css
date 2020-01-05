@@ -381,7 +381,6 @@ h2{
     position: relative;
     background-color: inherit;
     width: 50%;
-    z-index: -1;
 }
 
 .kasse::after/*cirkler på tidslinje*/{
@@ -396,6 +395,15 @@ h2{
     border-radius: 50%;
     z-index: -1;
     
+}
+
+.kasse a{
+    color: #a08cac;
+    text-decoration: none;
+}
+
+.kasse a:hover{
+    color: #9e5f78;
 }
 
 .venstre{
